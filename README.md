@@ -31,7 +31,7 @@ end
 ```elixir
 # config/config.exs
 config :goodverify_ex,
-  base_url: "https://api.goodverify.com",
+  base_url: "https://goodverify.dev",
   api_key: "sk_live_..."
 ```
 
@@ -39,7 +39,7 @@ config :goodverify_ex,
 
 ```elixir
 client = GoodverifyEx.client(
-  base_url: "https://api.goodverify.com",
+  base_url: "https://goodverify.dev",
   api_key: "sk_live_..."
 )
 ```
