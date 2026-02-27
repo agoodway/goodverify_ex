@@ -14,6 +14,16 @@ def deps do
 end
 ```
 
+Install directly from GitHub:
+
+```elixir
+def deps do
+  [
+    {:goodverify_ex, git: "https://github.com/agoodway/goodverify_ex.git"}
+  ]
+end
+```
+
 ## Configuration
 
 ### Application config
